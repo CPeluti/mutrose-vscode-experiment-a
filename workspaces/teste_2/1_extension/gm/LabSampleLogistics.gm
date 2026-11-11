@@ -9,8 +9,8 @@
         {
           "id": "bc3a4861-faec-4277-867a-c414d14bdd7f",
           "text": "G1: Pickup and Deliver Samples [G2;G3]",
-          "x": 810.6686646608741,
-          "y": 132.30032996029996,
+          "x": 1060.8827458072844,
+          "y": 166.26979130799145,
           "type": "istar.Goal",
           "customProperties": {
             "Description": ""
@@ -19,8 +19,8 @@
         {
           "id": "d9c013de-1883-4045-a937-72b5cdcc601c",
           "text": "G2: Fetch Deliveries to Be Made",
-          "x": 601.757097124661,
-          "y": 222.94914075739325,
+          "x": 851.9711782710713,
+          "y": 256.91860210508474,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -32,8 +32,8 @@
         {
           "id": "06b39e44-0480-4c5f-95b7-b93d2e3aba44",
           "text": "G3: Pickup Samples for All Requested Deliveries and Deliver Them [G4;G9]",
-          "x": 1060.968826907301,
-          "y": 205.6004922067268,
+          "x": 1311.1829080537113,
+          "y": 239.5699535544183,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -47,8 +47,8 @@
         {
           "id": "c348a0e5-756e-405b-b192-1943e9112a08",
           "text": "G5: Fetch Delivery's Nurse",
-          "x": 630.968826907301,
-          "y": 447.6004922067268,
+          "x": 881.1829080537113,
+          "y": 481.5699535544183,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -61,8 +61,8 @@
         {
           "id": "0d55086a-ecf9-4084-a0d8-ac6bc2803b9a",
           "text": "G6: Fetch Delivery Pickup Location",
-          "x": 765.968826907301,
-          "y": 449.6004922067268,
+          "x": 1016.1829080537113,
+          "y": 483.5699535544183,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -75,21 +75,21 @@
         {
           "id": "a8146353-70b6-4bd8-9765-45ff003dc3a8",
           "text": "G10: Fetch Pharmacy Location",
-          "x": 1462.0732827580284,
-          "y": 425.33773546760676,
+          "x": 1712.2873639044387,
+          "y": 470.9065250803636,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
             "GoalType": "Query",
-            "QueriedProperty": "world_db->select(l:Location | l.name = \"Pharmacy\")",
-            "Controls": "pharmacy_loc : Location"
+            "Controls": "pharmacy_loc : Location",
+            "QueriedProperty": "world_db->select(l:Location | l.name = \"Pharmacy\")"
           }
         },
         {
           "id": "87dda884-9f97-4a20-b932-e0192784b025",
           "text": "G11: Fetch Pharmacy Arm",
-          "x": 1623.5800934826148,
-          "y": 430.3726003226735,
+          "x": 1873.794174629025,
+          "y": 464.342061670365,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -102,8 +102,8 @@
         {
           "id": "3ca4c630-6c0d-47f2-9c9d-b41744a62ebc",
           "text": "G4: Approach Nurse and Pick Sample [G5;G6;G7;G8]",
-          "x": 768.968826907301,
-          "y": 315.6004922067268,
+          "x": 1019.1829080537113,
+          "y": 349.5699535544183,
           "type": "istar.Goal",
           "customProperties": {
             "Description": ""
@@ -112,8 +112,8 @@
         {
           "id": "936171bf-cc5c-4d10-8156-c3d7c8d40d26",
           "text": "G7: Approach the Nurse",
-          "x": 934.1298723524469,
-          "y": 461.22057840257,
+          "x": 1184.3439534988572,
+          "y": 495.1900397502615,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -123,8 +123,8 @@
         {
           "id": "f63b2d92-fb31-4617-84a4-c30982dfd797",
           "text": "AT1: ApproachNurse",
-          "x": 939.9739082117817,
-          "y": 542.3726003226734,
+          "x": 1190.187989358192,
+          "y": 576.3420616703648,
           "type": "istar.Task",
           "customProperties": {
             "Description": "",
@@ -135,8 +135,8 @@
         {
           "id": "ad9b096a-2527-4cd9-a013-1476f05e4a8a",
           "text": "G9: Approach Arm and Unload Sample [G10;G11;G12;G13]",
-          "x": 1707.374363192427,
-          "y": 317.6004922067268,
+          "x": 1957.5884443388372,
+          "y": 351.5699535544183,
           "type": "istar.Goal",
           "customProperties": {
             "Description": ""
@@ -145,8 +145,8 @@
         {
           "id": "39b9184c-1763-4b32-be0e-c6351e339adf",
           "text": "G12: Approach the Arm",
-          "x": 1814.7518771057078,
-          "y": 436.9865462647001,
+          "x": 2064.965958252118,
+          "y": 470.9560076123916,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -155,9 +155,9 @@
         },
         {
           "id": "0d101739-284b-4948-995e-04369e535aec",
-          "text": "AT3: ApproacArm",
-          "x": 1781.9449041346945,
-          "y": 545.0214111197669,
+          "text": "AT3: ApproachArm",
+          "x": 2032.1589852811048,
+          "y": 578.9908724674583,
           "type": "istar.Task",
           "customProperties": {
             "Description": "",
@@ -168,8 +168,8 @@
         {
           "id": "9a952783-d786-409b-a5e7-039ab220442b",
           "text": "G8: Pick the Sample With the Nurse",
-          "x": 1246.201445287252,
-          "y": 470.237356593653,
+          "x": 1496.4155264336623,
+          "y": 504.20681794134447,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -179,8 +179,8 @@
         {
           "id": "db0a4731-d462-411a-9318-298798b229df",
           "text": "AT2: PickSample",
-          "x": 1252.4907640264064,
-          "y": 556.612131827254,
+          "x": 1502.7048451728167,
+          "y": 590.5815931749454,
           "type": "istar.Task",
           "customProperties": {
             "Description": "",
@@ -190,8 +190,8 @@
         {
           "id": "d059ac56-e28b-4cf2-beba-45bedb46fef3",
           "text": "G13: Unload the Sample",
-          "x": 2023.9398228302139,
-          "y": 440.0562759748334,
+          "x": 2274.153903976624,
+          "y": 474.0257373225249,
           "type": "istar.Goal",
           "customProperties": {
             "Description": "",
@@ -201,8 +201,8 @@
         {
           "id": "0e36655e-0760-49c8-a202-cee7c5cdadb7",
           "text": "AT4: UnloadSample",
-          "x": 2026.0444173954138,
-          "y": 541.7935192357136,
+          "x": 2276.2584985418243,
+          "y": 575.762980583405,
           "type": "istar.Task",
           "customProperties": {
             "Description": "",
@@ -212,8 +212,8 @@
       ],
       "text": "M1: Lab Samples Logistics",
       "type": "istar.Actor",
-      "x": 579.968826907301,
-      "y": 70.60049220672683
+      "x": 830.1829080537113,
+      "y": 104.5699535544183
     }
   ],
   "orphans": [],
@@ -387,7 +387,7 @@
   },
   "tool": "pistar.2.0.0",
   "istar": "2.0",
-  "saveDate": "Mon, 09 Nov 2026 20:54:33 GMT",
+  "saveDate": "Wed, 11 Nov 2026 22:55:39 GMT",
   "diagram": {
     "width": 2000,
     "height": 1300,
